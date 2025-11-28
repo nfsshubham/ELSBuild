@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content='width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, shrink-to-fit=yes'>
-    <title>Unity WebGL Player | ELSA Locations</title>
+    <title>Unity WebGL Player | AR Image Tracking</title>
     <link rel="stylesheet" href="TemplateData/style.css">
 
     <style>
@@ -107,14 +107,13 @@
                 
                 document.getElementById("startARDiv").style.display = "none";
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/AR.data",
-                    frameworkUrl: "Build/AR.framework.js",
-                    codeUrl: "Build/AR.wasm",
-                    symbolsUrl: "Build/AR.symbols.json",
+                    dataUrl: "Build/AR.data.gz",
+                    frameworkUrl: "Build/AR.framework.js.gz",
+                    codeUrl: "Build/AR.wasm.gz",
                     streamingAssetsUrl: "StreamingAssets",
-                    companyName: "Mode Games Pty Ltd",
-                    productName: "ELSA Locations",
-                    productVersion: "1.6.1",
+                    companyName: "DefaultCompany",
+                    productName: "AR Image Tracking",
+                    productVersion: "0.1",
                     //webglContextAttributes: { "preserveDrawingBuffer": true },
                     // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
                     // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
