@@ -1,9 +1,9 @@
-const cacheName = "Innate-A Man-1.0";
+const cacheName = "Innate-Laptop-1.0";
 const contentToCache = [
-    "Build/pinkbooks.loader.js",
-    "Build/pinkbooks.framework.js",
-    "Build/pinkbooks.data",
-    "Build/pinkbooks.wasm",
+    "Build/Green Books build.loader.js",
+    "Build/Green Books build.framework.js",
+    "Build/Green Books build.data",
+    "Build/Green Books build.wasm",
     "TemplateData/style.css"
 
 ];
