@@ -1,9 +1,9 @@
-const cacheName = "Innate-Laptop-1.0";
+const cacheName = "Innate-Nouns-0.1.0";
 const contentToCache = [
-    "Build/Green Books build.loader.js",
-    "Build/Green Books build.framework.js",
-    "Build/Green Books build.data",
-    "Build/Green Books build.wasm",
+    "Build/nouns.loader.js",
+    "Build/nouns.framework.js",
+    "Build/nouns.data",
+    "Build/nouns.wasm",
     "TemplateData/style.css"
 
 ];

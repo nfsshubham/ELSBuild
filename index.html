@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Green Books</title>
+    <title>Unity Web Player | Nouns</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
     <div id="unity-container">
-      <canvas id="unity-canvas" width=1280 height=720 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,16 +57,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Green Books build.loader.js";
+      var loaderUrl = buildUrl + "/nouns.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Green Books build.data",
-        frameworkUrl: buildUrl + "/Green Books build.framework.js",
-        codeUrl: buildUrl + "/Green Books build.wasm",
+        dataUrl: buildUrl + "/nouns.data",
+        frameworkUrl: buildUrl + "/nouns.framework.js",
+        codeUrl: buildUrl + "/nouns.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Innate",
-        productName: "Laptop",
-        productVersion: "1.0",
+        productName: "Nouns",
+        productVersion: "0.1.0",
         showBanner: unityShowBanner,
       };
 
